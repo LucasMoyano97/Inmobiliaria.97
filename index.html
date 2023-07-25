@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Inmobiliaria Lucas Moyano</title>
+</head>
+<body>
+<header>
+    <h1><img src="Logo n2.png" alt="Icono de la inmobiliaria"></h1>
+    <nav>
+        <ul>
+            <li><a href="">Incio</a></li>
+            <li><a href="">Casas Disponibles</a></li>
+            <li><a href="">Contactos</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <img src="Banner.jpg" alt="banner de referencia" class="banner">
+    <section class="sobreNosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Esta es una inmobiliaria creada en el año 2023, la cual busca que el cliente encuentre un
+        hogar 100% seguro para pasar sus dias de vacaciones maravillosamente, confiable y al mejor precio. Ubicado en la ciudad de Mar Del Plata </p>
+    </section>
+        <section class="CASAS">
+            <div class="Casa">
+                <h2>Disponible del 27/07,<br> Hasta 15/08 por 50.000 pesos</h2>
+                <Img src="casa n1.webp" alt="Casa numero 1">
+                <p>Mexico, Cancun </p>
+            </div>
+            <div class="Casa">
+                <h2>Disponible del 29/09 <br>Hasta 20/10 por 20.000 pesos</h2>
+                <Img src="departamento n2.jpg" alt="Casa numero 2">
+                <p>Argentina, Buenos Aires </p>
+            </div>
+            <div class="Casa">
+                <h2>Disponible del 21/01 <br>Hasta 10/10 por 10.000 pesos</h2>
+                <Img src="Departamento n3.jpg" alt="Casa numer 3">
+                <p>Colombia, Medellin</p>
+            </div>
+        </section>
+        <section class="Formulario">
+            <form action="">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="Input-padron" required>
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id="correoelectronico"
+                class="Input-padron" required placeholder="email@dominio.com">
+
+                <label for="Telefono">Telefono</label>
+                <input type="Tel" id="Telefono" class="Input-Padron" required
+                placeholder="(xx)xxx xxxxxx">
+
+                <label for="Mensaje">Mensaje</label>
+                <textarea  id="Mensaje" cols="70" rows="10" class="input-padron" placeholder="Deje aqui su mensaje"></textarea>
+
+                <fieldset>
+                    <legend>¿como le gustaria que lo contactemos?</legend>
+                    <label for="Radio-Email"><input type="Radio" name="Contacto" value="Email"
+                    id="radio-email">Email</label>
+
+                    <label for="Radio-Telefono"><input type="radio"
+                        name="Contacto" value="Telefono" id="Radio-Telefono">Telefono</label>
+                        <label for="Radio-Whatsapp"><input type="radio" name="contacto" value="whatsapp"
+                            id="radio-whatsapp"checked>Whatsapp </label>
+
+                </fieldset>
+                <Fieldset>
+                    <legend>¿En que horario prefiere ser contactado?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </Fieldset> 
+                <label><input type="checkbox" class="checkbox" checked>¿Le gustaria recibir novedades?</label>
+                <input type="submit" value="Enviar" class="Enviar">
+
+                
+            </form>
+
+        </section>
+        
+    
+</main>
+<footer>
+    <img src="Logo n2.png" alt="Logo">
+    <p>Derechos Reservados 2023| Lucas Moyano</p>
+</footer>
+</body>
+</html>
